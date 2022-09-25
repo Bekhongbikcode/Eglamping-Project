@@ -1,0 +1,529 @@
+body {
+    background-image: url("Images/c6f057_c8686d8126814658bdbe1c1e17ddeeeb_mv2.webp");
+    /* khi cuộn thì ảnh vẫn ở đó */
+    background-attachment: fixed;
+    /* giảm độ sáng của ảnh nền */
+    backdrop-filter: brightness(20%);
+    padding: 0;
+    margin: 0;
+}
+
+.Menu_Taskbar {
+    /* thiết lập chiều cao  */
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: sticky;
+}
+
+.Border_Right_Menu p {
+    margin-top: 0;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid rgb(35, 167, 114);
+    font-family: cursive;
+    font-size: larger;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.Menu_Taskbar p:hover {
+    background-color: rgb(35, 167, 114);
+    
+}
+
+.Menu_Taskbar a {
+    text-decoration: none;
+    position: sticky;
+}
+
+/* .Book_Tent button{
+    display: inline-block;
+    text-align: center;
+} */
+
+.Button_Menu {
+    background-color: #00E689;
+    border-radius: 40px;
+    font-size: large;
+    height: 26px;
+    width: 200px;
+    margin-left: 380px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 0px;
+    font-family: monospace;
+}
+
+.Logout{
+    background-color: #00E689;
+    border-radius: 40px;
+    font-size: large;
+    height: 26px;
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 0px;
+    font-family: monospace;
+}
+
+.Logout:hover {
+    color: antiquewhite;
+    background-color: rgb(63, 118, 82);
+    font-size: larger;
+}
+
+
+.Button_Menu:hover {
+    color: antiquewhite;
+    background-color: rgb(63, 118, 82);
+    font-size: larger;
+}
+
+.Para_Introduce {
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(4, 150, 91);
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 0;
+    margin-left: 150px;
+    margin-right: 145px;
+    padding: 30px 70px;
+}
+
+.Para_Introduce span:first-child {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.Img_Menu img {
+    height: 510px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.Next_Pre {
+    font-size: 1500%;
+    color: antiquewhite;
+    position: absolute;
+    top: 10px;
+    margin-top: 200px;
+}
+
+#Next_Button {
+    margin-right: 840px;
+    margin-left: 100px;
+    opacity: 50%;
+}
+
+#Previous_Button {
+    opacity: 50%;
+}
+
+.Img_Footer {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+
+.Img_Footer02 {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.Img_Footer img {
+    margin-top: 0;
+    width: 316px;
+    height: 255px;
+    padding-right: 10px;
+}
+
+.Img_Footer02 img {
+    width: 316px;
+    height: 255px;
+    padding-right: 10px;
+}
+
+.Img_Footer img:hover {
+    opacity: 0.3;
+}
+
+.Img_Footer02 img:hover {
+    opacity: 0.3;
+}
+
+.Para_Footer {
+    margin-top: 100px;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    margin-left: 180px;
+    margin-right: 150px;
+}
+
+.Para_Footer span:first-child {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Last_Introduce {
+    background-color: rgb(4, 150, 91);
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 130px;
+    margin-top: 312px;
+    padding-top: 30px;
+    font-style: italic;
+    border-bottom: 1px solid blue;
+}
+
+.Last_Introduce span:first-child {
+    font-size: xx-large;
+}
+
+.Last_Para {
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.Logo_Footer01 {
+    display: flex;
+    margin-left: 170px;
+    margin-right: 139px
+}
+
+.Block_Footer01 {
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+
+.Block_Footer01 img {
+    width: 96;
+    height: 66;
+    /* đổi hình sang màu trắng */
+    filter: brightness(0) invert(1);
+}
+
+.Block_Footer01 p {
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
+
+
+.Logo_Footer02 {
+    display: flex;
+    margin-left: 170px;
+    margin-right: 139px
+}
+
+.Block_Footer02 {
+    padding-right: 90px;
+    padding-top: 90px;
+}
+
+.Block_Footer02 img {
+    width: 150px;
+    height: 90px;
+    /* đổi hình sang màu trắng */
+    filter: brightness(0) invert(1);
+
+}
+
+.Block_Footer02 p {
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.Footer_Para {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(61, 66, 68, 0.539);
+    padding-top: 50px;
+    padding-bottom: 1px;
+    border-top: 1px solid white;
+}
+
+.Footer_Para p {
+    font-size: large;
+}
+
+.CS_Intro {
+    color: aliceblue;
+    margin-left: 95px;
+    margin-right: 100px;
+}
+
+.CS_Intro span {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.AU_Intro {
+    text-align: center;
+    color: aliceblue;
+    background-color: #00E689;
+    margin-left: 84px;
+    margin-right: 84px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.Au_Intro_01 {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.Au_Intro_02 {
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-style: italic;
+    font-size: large;
+}
+
+.Menu_Taskbar_AU {
+    /* thiết lập chiều cao  */
+    line-height: 55px;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.Border_Right_Menu_AU p {
+    margin-top: 0;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(35, 167, 114);
+    font-family: cursive;
+    font-size: larger;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+
+.Menu_Taskbar_AU p:hover {
+    background-color: rgb(35, 167, 114);
+}
+
+.Menu_Taskbar_AU a {
+    text-decoration: none;
+}
+
+.Img_Footer_AU {
+    display: flex;
+    margin-left: 84px;
+    margin-bottom: 10px;
+}
+
+.Img_Footer02_AU {
+    display: flex;
+    margin-left: 84px;
+}
+
+.Img_Footer_AU img {
+    margin-top: 0;
+    width: 358px;
+    height: 260px;
+    padding-right: 10px;
+}
+
+.Img_Footer02_AU img {
+    width: 358px;
+    height: 260px;
+    padding-right: 10px;
+}
+
+.Img_Footer_AU img:hover {
+    opacity: 0.3;
+}
+
+.Img_Footer02_AU img:hover {
+    opacity: 0.3;
+}
+
+.Last_Introduce_AU {
+    background-color: rgb(4, 150, 91);
+    text-align: center;
+    margin-left: 84px;
+    margin-right: 84px;
+    padding-top: 30px;
+    font-style: italic;
+    border-bottom: 1px solid blue;
+}
+
+.Logo_Footer01_AU {
+    display: flex;
+    margin-left: 170px;
+    margin-right: 139px
+}
+
+.Block_Footer01_AU {
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+
+.Block_Footer01_AU img {
+    width: 96;
+    height: 66;
+    /* đổi hình sang màu trắng */
+    filter: brightness(0) invert(1);
+}
+
+.Block_Footer01_AU p {
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
+
+
+.Logo_Footer02_AU {
+    display: flex;
+    margin-left: 170px;
+    margin-right: 139px
+}
+
+.Block_Footer02_AU {
+    padding-right: 90px;
+    padding-top: 90px;
+}
+
+.Block_Footer02_AU img {
+    width: 150px;
+    height: 90px;
+    /* đổi hình sang màu trắng */
+    filter: brightness(0) invert(1);
+
+}
+
+.Block_Footer02_AU p {
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.Last_Introduce_AU {
+    background-color: rgb(4, 150, 91);
+    text-align: center;
+    margin-left: 82px;
+    margin-right: 82px;
+    padding-top: 40px;
+    font-style: italic;
+    border-bottom: 1px solid blue;
+    color: aliceblue;
+}
+
+.Last_Introduce_AU span:first-child {
+    font-size: xx-large;
+    color: black;
+}
+
+.Img_Slider03_01 {
+    padding-left: 75px;
+}
+
+.Img_Slider03_02 {
+    padding-left: 75px;
+}
+
+.Img_Slider03_03 {
+    padding-left: 75px;
+}
+
+.Img_Slider03_04 {
+    padding-left: 75px;
+}
+
+.Img_Slider03_05 {
+    padding-left: 75px;
+}
+
+.Img_Slider03_01 img:hover {
+    opacity: 0.3;
+}
+
+.Img_Slider03_02 img:hover {
+    opacity: 0.3;
+}
+
+.Img_Slider03_03 img:hover {
+    opacity: 0.3;
+}
+
+.Img_Slider03_04 img:hover {
+    opacity: 0.3;
+}
+
+.Img_Slider03_05 img:hover {
+    opacity: 0.3;
+}
+
+.Img_Slider03_06 img:hover {
+    opacity: 0.3;
+}
+
+.Img_Slider03_01 img {
+    height: 350px;
+    width: 350px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.Img_Slider03_02 img {
+    height: 350px;
+    width: 350px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.Img_Slider03_03 img {
+    height: 350px;
+    width: 350px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.Img_Slider03_04 img {
+    height: 350px;
+    width: 350px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.Img_Slider03_05 img {
+    height: 350px;
+    width: 350px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
